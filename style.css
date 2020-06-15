@@ -1,0 +1,99 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.right { float: right; }
+.red { color: #FF5049 !important; }
+.red-focus:focus { border: 1px solid #FF5049 !important; }
+
+/**********************************************
+*** TOP PART
+**********************************************/
+
+.top {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url();
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.input__player {
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    /*text-align: center;*/
+}
+
+.player__name {
+    text-align: center;
+}
+
+.btn__player__search {
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: #28B9B5;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+.btn__player__search:active { transform: translateY(2px); }
+
+.btn__player__search:focus { outline: none; }
+
+/**********************************************
+*** MIDDLE PART
+**********************************************/
+
+.middle {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url();
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/**********************************************
+*** BOTTOM PART
+**********************************************/
+
+.bottom {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url();
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.item__list {
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    text-align: center;
+}
